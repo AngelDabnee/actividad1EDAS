@@ -1,9 +1,9 @@
-import { factorial } from '../Factorial'
+import { factorial } from '../Factorial.js'
 
 describe('Suite de pruebas de la funcion Factorial() usando recursividad', () => {
 
   beforeAll(() => {
-    console.info('Autor: Hecho por Prof. Ivan R. Chenoweth');
+    console.info('Autor: Hecho por Angel');
   })
 
   it('Test 1 - debe devolver el factorial 1 para el valor "0"', () => {
